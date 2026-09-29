@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Dataset / raw data
+*.bin
+*.wav
+*.npz
+
+# If dataset folders are specifically named:
+lora_part001/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep generated CFAR results
+!cfar_results/
+!cfar_results/**
+*.npz
+
+
